@@ -1,0 +1,22 @@
+
+
+.App {
+  margin-top: 100px;
+  text-align: center;
+  color:aliceblue;
+  font-size: 1.3em;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.formFields{
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  font-size: calc(10px + 2vmin);
+  cursor: pointer;
+}
+

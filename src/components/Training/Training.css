@@ -1,0 +1,32 @@
+
+.formCheckbox ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.formCheckbox ul li{
+    margin: 0 10px 10px 10px;
+}
+
+.formCheckbox ul li input[type=checkbox]{
+    margin-right: 5px;
+}
+.formRadios{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.formRadio{
+    margin-left: 15px;
+}
+.formRadio:hover, .formRadio label:hover, .formRadio input:hover{
+    cursor: pointer;
+}
+
+.imgExemple img{
+    height: 200px;
+    width: 300px;
+}

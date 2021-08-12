@@ -1,0 +1,20 @@
+.Result {
+  text-align: center;
+  color: aliceblue;
+}
+.onTraining .totalTimer, .exceeded-time-totalTimer{
+  font-size: 2em;
+  margin: 20px auto;
+}
+
+.onTraining .partialTimer, .exceeded-time-partialTimer  {
+  font-size: 3em;
+  margin: 20px auto;
+}
+.onTraining .records {
+  justify-content: space-around;
+  display: flex;
+}
+.exceeded-time-partialTimer , .exceeded-time-totalTimer{
+  color: red;
+}
