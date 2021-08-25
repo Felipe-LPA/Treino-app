@@ -209,7 +209,7 @@ function App() {
     );
   };
   /* utilização do hook personalizado useInterval */
-  useInterval(secPass, isRunning ? 500 : null);
+  useInterval(secPass, isRunning ? 1000 : null);
 
   /* função auxiliar para incluir um 0 na formatação do tempo caso o mesmo seja um número
         de 0 a 9 */
